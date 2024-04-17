@@ -1,0 +1,560 @@
+<!DOCTYPE>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+  <title>PK Star of voice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Cache" content="no-cache">
+  <meta itemprop="name" content="PK Star of voice">
+  <meta property="og:title" content="PK Star of voice">
+  <meta property="og:description" content="PK Star of voice">
+  <meta property="og:image" content="PK Star of voice">
+  <meta property="og:url" content="http://www.streamkarlive.live/streamkar/pkMastervoice/index.html">
+  <meta property="fb:app_id" content="475289669332579">
+  <meta name="twitter:title" content="PK Star of voice">
+  <meta name="twitter:description" content="PK Star of voice">
+  <meta name="twitter:image:src" content="http://www.streamkarlive.live/streamkar/pkMastervoice/img/poster.jpg">
+  <link href="css/style.css?v=23" rel="stylesheet" type="text/css" />
+  <link href="./../common/css/common.css?v=21" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="./../common/js/jquery.3.1.min.js?v=3"></script>
+
+  <script type="text/javascript" src="./../common/js/native_api.js?v=5"></script>
+  <script type="text/javascript" src="./../common/js/common.js?v=3"></script>
+  <script src="js/ymvLy311lKo9rq8ZPQyKSChf75k.js"></script>
+    <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript" src="js/google-sheets-html.js"></script>
+</head>
+<body>
+  <img src="img/Header.gif" class="headerpic">
+
+<!-- Trigger/Open The Modal ----------------------Guide Start-------------------------------------------->
+<button id="myBtn"><img src="img/Guide-btn.png" alt="" class="guide-btn"></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <img src="img/Guide-text.png" class="guide-text">
+    <span class="close"><img src="img/close-btn.png" class="close-btn" alt=""></span>
+    <div class="guide-content">
+      <h1>HOW TO PLAY</h1>
+      <ul>
+        <li>Top 10 Singers have to register their id’s with SK employees to participate in this event.</li>
+        <li>PK Singing Battle will be held between the talents.</li>
+        <li>Talents need to come live before 15min of the PK Battle.</li>
+        <li>Talents with maximum beans received from ROUND 1 will proceed to ROUND 2.</li>
+        <li>First Talent to the left in the webpage schedule, will start the performance first and will perform for First 5 – 6 Mins, Then Next Talent will perform for 5 – 6 Min.</li>
+        <li>Will have 1 winner based on maximum beans received in ROUND 2 will be mentioned in the BANNER for 3 days.</li>
+        <li>Talents and User will be ranked on the leaderboard based on the beans received and spent respectively in each round.</li>
+        <li>Top Gifter/ user in Round 2 of the tournament will be mentioned in the BANNER for 3 days.</li>
+        <li>Top 5 Talents and users in Round 2 will be mentioned in the web page.</li>
+      </ul>
+
+      <h2>USER REWARDS</h2>
+        <p>Following rewards will be distributed as per beans spent in the whole event. Rewards will be sent manually after event ends.</p>
+      <table style="width:100%" class="guide-table">
+        <tr>
+          <th>Criteria</th>
+          <th>Winning Side Rewards</th> 
+        </tr>
+        <tr>
+          <td>05-20 Million Beans</td>
+          <td>01% of the Beans spent in the match</td>
+        </tr>
+        <tr>
+          <td>20-50 Million Beans</td>
+          <td>02% of the Beans spent in the match</td>
+        </tr>
+        <tr>
+          <td>50 Million & Above</td>
+          <td>03% of the Beans spent in the match</td>
+        </tr>
+      </table>
+      
+
+    </div>
+  </div>
+
+</div>
+
+<!----------------------------------------------Guide End-------------------------------------------->
+
+<div class="coltwo">
+  <button class="tablinks" onclick="openCity(event, 'Round-1')" id="mybutton"><img src="img/User-select-button.png" class="round1tab" alt=""></button>
+  <button class="tablinks" onclick="openCity(event, 'Round-2')"><img src="img/Talent-select-button.png" class="round1tab" alt=""></button>
+</div>
+
+
+<!----------------------------------------------Round1 Start------------------------------------------------------------------------>
+
+<div id="Round-1" class="tabcontent">
+  <img src="img/Rewards-title.png" class="rewards-title" alt="">
+
+
+  <div class="tabr1">
+    <button class="demo" onclick="infofunc(event, 'userreward')" >Round1</button>
+    <button class="demo" onclick="infofunc(event, 'talentreward')" id="mybutton1">Round2</button>
+    <!--<button class="demo" onclick="infofunc(event, 'agencyreward')">Agency</button>-->
+  </div>
+
+    <div id="userreward" class="demo2">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides">
+          <div class="rewards-bg1">
+            <img  src="img/beanbag.png" class="reward1">
+          </div>
+          <div class="reward-text">Rewards will be distributed as per beans spent in the whole event. Rewards will be sent manually.</div>
+          <!--<div class="number">1st</div>-->
+        </div>
+        <!--<div class="mySlides">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward1">
+          </div>
+          <div class="reward-text">15 days maharaja entrance + 15 days MAESTRO profile frame + webpage mention </div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">10 days maharaja entrance + 10 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">7 days maharaja entrance + 7 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">4th</div>
+        </div>
+        <div class="mySlides">
+          <div class="rewards-bg">
+            <img  src="img/Rewards/Maharaja-Entrance.png" class="reward">
+            <img  src="img/Rewards/Meastro-Profile-frame.png" class="reward">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward">
+          </div>
+          <div class="reward-text">5 days maharaja entrance + 7 days MAESTRO profile frame+ webpage mention </div>
+          <div class="number">5th</div>
+        </div>-->
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <!--<div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs(1)">&#10095;</div>-->
+          <span class="w3-badge demoslide w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demoslide w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demoslide w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="talentreward" class="demo2">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/beanbag.png" class="reward1">
+            
+          </div>
+          <div class="reward-text">Rewards will be distributed as per beans spent in the whole event. Rewards will be sent manually.</div>
+          <!--<div class="number">1st</div>-->
+        </div>
+       <!-- <div class="mySlides1">
+          <div class="rewards-bg2">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">5 Days Audio Room theme + Profile Frame</div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides1">
+          <div class="rewards-bg2">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">3 Days Audio Room theme + Profile Frame</div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">3 Days Audio Room theme</div>
+          <div class="number">4th</div>
+        </div>
+        <div class="mySlides1">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">3 Days Audio Room theme</div>
+          <div class="number">5th</div>
+        </div>-->
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <!--<div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs1(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs1(1)">&#10095;</div>-->
+          <span class="w3-badge demoslide1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(1)"></span>
+          <span class="w3-badge demoslide1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(2)"></span>
+          <span class="w3-badge demoslide1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="agencyreward" class="demo2">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides2">
+          
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Banner-display.png" class="reward1">
+          </div>
+          <div class="reward-text">Banner for 3 days.</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides2">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward1">
+          </div>
+          <div class="reward-text">agency will be mentioned in webpage. </div>
+          <div class="number">2nd</div>
+        </div>      
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs2(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs2(1)">&#10095;</div>
+          <span class="w3-badge demoslide2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(1)"></span>
+          <span class="w3-badge demoslide2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(2)"></span>
+          <span class="w3-badge demoslide2 w3-border w3-transparent w3-hover-white" onclick="currentDiv2(3)"></span>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+<!------------------------------------------Round2 Start-------------------------------------------------------------------------->
+
+
+<div id="Round-2" class="tabcontent">
+  <img src="img/Rewards-title.png" class="rewards-title" alt="">
+
+
+  <div class="tabr1">
+    <button class="demor21" onclick="inforeward(event, 'userrewardr2')" id="mybuttonr21">Round1</button>
+    <button class="demor21" onclick="inforeward(event, 'talentrewardr2')">Round2</button>
+  </div>
+
+    <div id="userrewardr2" class="demor22">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides3">
+          <div class="rewards-bg2">
+            <img  src="img/Rewards/CELEBRATIONS room theme.png" class="reward">
+            <img  src="img/Rewards/Fury Profile Frame.png" class="reward">
+          </div>
+          <div class="reward-text">10 Days Celebration Audio Room theme + Fury Profile Frame (05 Million & Above Gems Required)</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides3">
+          <div class="rewards-bg2">
+            <img  src="img/Rewards/CELEBRATIONS room theme.png" class="reward">
+            <img  src="img/Rewards/Fury Profile Frame.png" class="reward">
+          </div>
+          <div class="reward-text">5 Days Celebration Audio Room theme + Fury Profile Frame (03 - 05 Million Gems Required)</div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides3">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/CELEBRATIONS room theme.png" class="reward1">
+          </div>
+          <div class="reward-text">3 Days Celebration Audio Room theme (01 - 03 Million Gems Required)</div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides3">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/CELEBRATIONS room theme.png" class="reward1">
+          </div>
+          <div class="reward-text">1 Day Celebration Audio Room theme (500K – 1 Million Gems Required)</div>
+          <div class="number">4th</div>
+        </div>
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs3(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs3(1)">&#10095;</div>
+          <span class="w3-badge demoslide3 w3-border w3-transparent w3-hover-white" onclick="currentDiv3(1)"></span>
+          <span class="w3-badge demoslide3 w3-border w3-transparent w3-hover-white" onclick="currentDiv3(2)"></span>
+          <span class="w3-badge demoslide3 w3-border w3-transparent w3-hover-white" onclick="currentDiv3(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="talentrewardr2" class="demor22">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides4">
+          <div class="rewards-bg">
+            <img src="img/PK Battle Rewards/badge-final.png" class="reward">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+            
+          </div>
+          <div class="reward-text">15 days PK STAR BADGE + Audio theme of PK combat + PK SUperStar Profile Frame (10 Million and above gems Required)</div>
+          <div class="number1">1st</div>
+        </div>
+        <div class="mySlides4">
+          <div class="rewards-bg2">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward">
+            <img  src="img/Rewards/ProfileFrame.png" class="reward">
+          </div>
+          <div class="reward-text">10 days Audio theme of PK combat + PK SUperStar Profile Frame (05-10 Million Gems Required)</div>
+          <div class="number">2nd</div>
+        </div>      
+        <div class="mySlides4">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">07 days Audio theme of PK combat (03-05 Million Gems Required)</div>
+          <div class="number">3rd</div>
+        </div>
+        <div class="mySlides4">
+          <div class="rewards-bg1">
+            <img  src="img/PK Battle Rewards/Pak battleAudio theme/PK-Battle-Audio-thumb.jpg" class="reward1">
+          </div>
+          <div class="reward-text">05 days Audio theme of PK combat (01-03 Million Gems Required)</div>
+          <div class="number">4th</div>
+        </div>
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs4(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs4(1)">&#10095;</div>
+          <span class="w3-badge demoslide4 w3-border w3-transparent w3-hover-white" onclick="currentDiv4(1)"></span>
+          <span class="w3-badge demoslide4 w3-border w3-transparent w3-hover-white" onclick="currentDiv4(2)"></span>
+          <span class="w3-badge demoslide4 w3-border w3-transparent w3-hover-white" onclick="currentDiv4(3)"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="agencyrewardr2" class="demor22">
+      <div class="w3-content w3-display-container">
+        <div class="mySlides5">
+          
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Banner-display.png" class="reward1">
+          </div>
+          <div class="reward-text">Banner for 3 days.</div>
+          <div class="number">1st</div>
+        </div>
+        <div class="mySlides5">
+          <div class="rewards-bg1">
+            <img  src="img/Rewards/Web-page-mention.png" class="reward1">
+          </div>
+          <div class="reward-text">agency will be mentioned in webpage. </div>
+          <div class="number">2nd</div>
+        </div>      
+
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki leftarrow" onclick="plusDivs5(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki rightarrow" onclick="plusDivs5(1)">&#10095;</div>
+          <span class="w3-badge demoslide5 w3-border w3-transparent w3-hover-white" onclick="currentDiv5(1)"></span>
+          <span class="w3-badge demoslide5 w3-border w3-transparent w3-hover-white" onclick="currentDiv5(2)"></span>
+          <span class="w3-badge demoslide5 w3-border w3-transparent w3-hover-white" onclick="currentDiv5(3)"></span>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<!------------------------------------------------Round 2 End------------------------------------------------------------------------------>
+
+
+
+
+<div class="shedulebg">
+  <div id="shedule" class="demo4">
+   <!-- <div class="tab-two">
+      <button class="demo5" onclick="infofunc2(event, 'leadr1')" id="mybutton3"><img src="img/Round-1-Select-btn.png" alt="" class="round-btn"></button>
+      <button class="demo5" onclick="infofunc2(event, 'leadr2')" ><img src="img/Round-2-select-btn.png" alt="" class="round-btn"></button>
+    </div>-->
+
+    <img src="img/Shedule-select-btn.png" alt="" class="shedule-btn">
+
+
+    <div class="tabr1">
+      <button class="demo5" onclick="infofunc2(event, 'leadr1')" >Round1</button>
+      <button class="demo5" onclick="infofunc2(event, 'leadr2')" id="mybutton3">Round2</button>
+    </div>
+
+      <div id="leadr1" class="demo6 schedule-container">
+
+        <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Date</th>
+            <th></th>
+            <th class="schedule-head">Singers</th> 
+            <th></th>
+            <th>Time</th>
+          </tr>
+          <tr class="schedulerow">
+            <td class="date">21-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=624073076">624073076</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=621483716">621483716</a></td>
+            <td>IST: 22:00-22:15</td>
+          </tr>
+          <tr class="schedulerow">
+            <td class="date">21-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=590031102">590031102</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=633447348">633447348</a></td>
+            <td>IST: 22:15-22:30</td>
+          </tr>
+          <tr class="schedulerow">
+            <td class="date">21-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=615624172">615624172</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=623248845">623248845</a></td>
+            <td>IST: 22:30-22:45</td>
+          </tr>
+          <tr class="schedulerow">
+            <td class="date">21-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=592450833">592450833</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=627657914">627657914</a></td>
+            <td>IST: 22:45-23:00</td>
+          </tr>
+          <tr class="schedulerow">
+            <td>21-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=608447790">608447790</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=605371677">605371677</a></td>            
+            <td>IST: 23:00-23:15</td>
+          </tr>
+          
+        </table>
+
+        <br>
+
+      </div>
+
+
+      <div id="leadr2" class="demo6 schedule-container">
+
+         <table class="leaderboard-bg stable">
+          <tr class="title-1">
+            <th>Date</th>
+            <th></th>
+            <th>Singers</th> 
+            <th></th>
+            <th>Time</th>
+          </tr>
+          <tr class="schedulerow">
+            <td>23-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=592450833">592450833</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=623248845">623248845</a></td>
+            <td>IST: 22:15-22:30</td>
+          </tr>
+          <tr class="schedulerow">
+            <td>23-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=605371677">605371677</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=627657914">627657914</a></td>          
+            <td>IST: 22:30-22:45</td>
+          </tr>
+          <tr class="schedulerow">
+            <td>23-06-2023</td>
+            <td><a href="http://www.kktv1.com/m/?roomid=615624172">615624172</a></td>
+            <td><img src="img/VS.png" alt="" class="vs"></td>
+            <td><a href="http://www.kktv1.com/m/?roomid=590031102">590031102</a></td>          
+            <td>IST: 22:45-23:00</td>
+          </tr>
+        </table>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+ <div class="leaderbg"   ><img src="img/Lederboard-Select-btn.png" alt="" class="shedule-btn"   >
+  <div id="leaderboard" class="demo4">
+
+    <div class="tab-two">
+      <button class="demo7 round-bg" onclick="infofunc3(event, 'leadr3')" id="mybutton4"><img src="img/User-select-button.png" alt="" class="round-btn "></button>
+      <button class="demo7 round-bg" onclick="infofunc3(event, 'leadr4')"><img src="img/Talent-select-button.png" alt="" class="round-btn "></button>
+    </div>
+
+      <div id="leadr3" class="demo8">
+
+          <div class="tabr1">
+            <button class="demolr11" onclick="infoleadr1(event, 'userlead')" id="mybuttonlr1">Round1</button>
+            <button class="demolr11" onclick="infoleadr1(event, 'talentlead')"  disabled="">Round2</button>
+          </div>
+
+          <div id="userlead" class="demolr12">
+          
+
+            <div id="conDiv"></div>
+          </div>
+
+          <div id="talentlead" class="demolr12">
+             <div id=""></div>
+          </div>
+
+          <div id="agencylead" class="demolr12">
+                <div id="agencyrec"></div>
+          </div>
+
+      </div>
+
+      <div id="leadr4" class="demo8">
+
+        <div class="tabr1">
+          <button class="demolr21" onclick="infoleadr2(event, 'userlead2')" id="mybuttonlr2">Round1</button>
+          <button class="demolr21" onclick="infoleadr2(event, 'talentlead2')" disabled="">Round2</button>
+        </div>
+
+
+        <div id="userlead2" class="demolr22">
+          <div id="conDivTalent"></div>
+        </div>
+
+        <div id="talentlead2" class="demolr22">
+           <div id="conDivTalentNext"></div>
+        </div>
+
+        <div id="agencylead2" class="demolr22">
+       <img src="img/win.jpg" class="wintemp">
+        </div>
+      </div>
+ </div>
+</div>
+
+ <script type="text/javascript" src="js/index.js"></script> 
+
+
+<script>
+
+
+</script>
+<p  class="note">All rights reserved by StreamKar</p>
+</body>
+</html>
+
+
