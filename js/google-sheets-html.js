@@ -15,7 +15,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/13by5QBY0RP8VGzg1AoWZGSW6kHf6kSa-bvXKXOc6jtE/edit#gid=1451743703');
+    var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1yDoXaBYJ9o5-Pu_9_WQ8qkYHyB3Io6vxbq0YzkEUmWM/edit?gid=0#gid=0');
     query.setQuery('SELECT A, B, C, D, E label A "Id", B "Timings", C "TALENT Name", D "Category", E  "Date"');
     query.send(handleQueryResponse);
       $('#img_bulk_anim').show();
@@ -110,11 +110,11 @@ function rowsCount(item){
  
   dataList.forEach(dataCount);
   console.log("counter is"+counter);
-  if(counter>=0 && counter<=12){
+  if(counter>=0 && counter<=11){
      $('#conDiv').append('<div class="colThree"><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass"></a></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal">'+name+'<br>ID-'+id+'</div><div class="lastDiv"><span class="dancing">'+times+'</span></div></div>');
 
   }
-  else  if(counter>12 && counter<=18){
+  else  if(counter>11 && counter<=17){
 
 
   
